@@ -2,4 +2,4 @@
 2: HTTPie uses Basic Authentication when using the -a flag
 3: Session Authentication is where the server stores a session file for the user containing the necessary info, Token auth is where the server creates and signs a token for the user and sends it to them where it is stored in their browser, this is an improvement over Basic Authentication because the client doesnt need to send the credentials everytime and can instead use the token everytime after initial login  
 4: The Client will ask for token from OAuth2 server, the server will then verify client and ask for consent then send token, then user can use oauth token to request resources from resource server which verifies token with Oauth serve and then sends resources
-5: 
+5: https://github.com/rileyzilka01/cmput404-lab9
